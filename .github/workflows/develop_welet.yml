@@ -6,7 +6,7 @@ name: Build and deploy JAR app to Azure Web App - welet
 on:
   push:
     branches:
-      - Develop
+      - main
   workflow_dispatch:
 
 jobs:
